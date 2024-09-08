@@ -1,0 +1,55 @@
+.ggBet {
+  background-image: url("https://www.hltv.org/img/QKvCP5ngjR_Obtyzq1KM8c.png?ixlib=java-2.1.0&s=facdcb748b374aee6b9c5db78149dcbb");
+  font-size: xx-small;
+  font-weight: bold;
+  width: 30rem;
+}
+
+.arrowBtn {
+  background-color: #7e2201;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 20px;
+}
+
+.arrowBtn:hover {
+  background-color: rgba(105, 33, 33, 0.665);
+}
+
+.points {
+  background-color: #9c2c03cc;
+  padding: 0 3px;
+  border-radius: 5px;
+}
+.game {
+  padding: 2px 0;
+  border-radius: 5px;
+}
+
+.game:hover {
+  background-color: #aeaeae47;
+}
+
+.header_GGBet {
+  padding: 0 2rem;
+}
+
+.header {
+  padding: 0 10px;
+  width: 100%;
+}
+
+.container .col-2,
+.container .col-8 {
+  flex-shrink: 0;
+}
+
+@media (max-width: 1439px) {
+  .header{
+    width: 100%;
+  }
+  .container {
+    width: 1440px;
+  }
+}

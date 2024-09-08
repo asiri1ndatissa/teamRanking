@@ -1,0 +1,18 @@
+.nav-link {
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #cdcfd0; /* Light gray background */
+  }
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #191c21;
+}
